@@ -65,4 +65,49 @@ Um mehr über Issues und deren Verknüpfung mit deinen Pull-Anfragen zu erfahren
 
 ### Dein Benutzerprofil
 
-Deine Profilseite erzählt die Geschichte deiner Arbeit anhand der Repositories, an denen du interessiert bist, der Beiträge, die du geleistet hast, und der Gespräche
+Deine Profilseite erzählt die Geschichte deiner Arbeit anhand der Repositories, an denen du interessiert bist, der Beiträge, die du geleistet hast, und der Gespräche, die du geführt hast. Mit deiner Profil-README kannst du der Welt auch einen einzigartigen Einblick in deine Person geben. Du kannst dein Profil nutzen, um zukünftigen Arbeitgebern alles über dich zu erzählen!
+Um mehr über dein Benutzerprofil und das Hinzufügen und Aktualisieren deiner Profil-README zu erfahren, lies ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
+
+### Markdown auf GitHub verwenden
+
+Du hast es vielleicht schon bemerkt, aber du kannst deinen Issues, Pull-Requests und Dateien ein paar lustige Formatierungen hinzufügen. ["Markdown"](https://guides.github.com/features/mastering-markdown/) ist eine einfache Möglichkeit, deine Issues, Pull-Requests und Dateien mit einer einfachen Syntax zu gestalten. Dies kann hilfreich sein, um deine Informationen zu organisieren und sie für andere leichter lesbar zu machen. Du kannst auch GIFs und Bilder einfügen, um deine Aussagen zu verdeutlichen!
+Um mehr über die Verwendung der GitHub-eigenen Markdown-Variante zu erfahren, lies ["Basic Writing and Formatting Syntax"](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
+
+### Interaktion mit der GitHub-Community
+
+Die GitHub-Community ist riesig. Es gibt viele Arten von Menschen, die GitHub täglich nutzen – Studenten wie du, professionelle Entwickler, Hobbybastler, die an Open-Source-Projekten arbeiten, und Entdecker, die gerade in die Welt der Softwareentwicklung einsteigen. Es gibt viele Möglichkeiten, mit der größeren GitHub-Community zu interagieren, aber hier sind drei Orte, an denen du beginnen kannst.
+
+#### Repositories mit Sternen versehen
+
+Wenn du ein Repository interessant findest oder es verfolgen möchtest, gib ihm einen Stern! Wenn du einem Repository einen Stern gibst, wird dies auch als Signal verwendet, um bessere Empfehlungen auf github.com/explore anzuzeigen. Wenn du zu deinen mit Sternen versehenen Repositories zurückkehren möchtest, kannst du dies über dein Benutzerprofil tun.
+Um mehr über das Versehen von Repositories mit Sternen zu erfahren, lies ["Saving Repositories with Stars"](https://docs.github.com/en/github/getting-started-with-github/saving-repositories-with-stars).
+
+#### Benutzern folgen
+
+Du kannst Personen auf GitHub folgen, um Benachrichtigungen über ihre Aktivitäten zu erhalten und Projekte in ihren Communities zu entdecken. Wenn du einem Benutzer folgst, werden seine öffentlichen GitHub-Aktivitäten auf deinem Dashboard angezeigt, sodass du all die coolen Dinge sehen kannst, an denen er arbeitet.
+Um mehr über das Folgen von Benutzern zu erfahren, lies ["Following People"](https://docs.github.com/en/github/getting-started-with-github/following-people).
+
+#### GitHub Explore durchsuchen
+
+GitHub Explore ist ein großartiger Ort, um genau das zu tun ... zu erkunden :smile: Du kannst neue Projekte, Veranstaltungen und Entwickler finden, mit denen du interagieren kannst.
+
+Du kannst die GitHub Explore-Website unter [github.com/explore](https://github.com/explore) besuchen. Je mehr du mit GitHub interagierst, desto besser wird deine Explore-Ansicht auf dich zugeschnitten.
+
+## 📝 Optionale nächste Schritte
+
+* Öffne eine Pull-Anfrage und lass deinen Lehrer wissen, dass du diesen Kurs abgeschlossen hast.
+* Erstelle eine neue Markdown-Datei in diesem Repository. Teile mit, was du gelernt hast und was du noch nicht verstehst! Experimentiere mit verschiedenen Stilen!
+* Erstelle deine Profil-README. Lass die Welt ein wenig mehr über dich wissen! Woran bist du interessiert? Woran arbeitest du? Was ist dein Lieblingshobby? Erfahre mehr über das Erstellen deiner Profil-README im Dokument ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
+* Gehe zu deinem Benutzer-Dashboard und erstelle ein neues Repository. Experimentiere mit den Funktionen in diesem Repository, um dich damit vertraut zu machen.
+* [Lass uns wissen, was dir an den Inhalten dieses Kurses gefallen oder nicht gefallen hat](https://support.github.com/contact/education). Was würdest du gerne mehr sehen? Was wäre interessant oder hilfreich für deine Lernreise?
+
+## 📚 Ressourcen
+
+* [Ein kurzes Video, das erklärt, was GitHub ist](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
+* [Lernmaterialien zu Git und GitHub](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources)
+* [Das GitHub-Flow verstehen](https://guides.github.com/introduction/flow/)
+* [So verwendest du GitHub-Branches](https://www.youtube.com/watch?v=H5GJfcp3p4Q&feature=youtu.be)
+* [Interaktive Git-Schulungsmaterialien](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
+* [GitHub's Learning Lab](https://lab.github.com/)
+* [Forum der Education-Community](https://education.github.community/)
+* [GitHub-Community-Forum](https://github.community/)
