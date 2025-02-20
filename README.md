@@ -1,4 +1,4 @@
-# :wave: Die Grundlagen von GitHub
+# :wave: Die Grundlagen von Git und GitHub
 
 ## 🤓 Kursüberblick und Lernziele
 
@@ -136,7 +136,69 @@ Dieser Befehl ist sehr vielseitig.
 In seiner einfachsten Form zeigt er nur einige Informationen zum aktuellen Stand des Repositories.
 Erfahre mehr über diesen Befehl in der [status-Referenz](https://git-scm.com/docs/git-status).
 
+## 📖 Die Entstehung von Git
+Wieso brauchen wir überhaubt ein verteiltes VCS wie Git?
+Zugriff auf ältere Versionen von Dateien zu haben kann in vielen Fällen nützlich sein.
+Dies kann zum Beispiel nach einem Datenverlust der Fall sein, oder wenn man mit Änderungen, die man an einer Datei gemacht hat nicht mehr zufrieden ist.
+Die einfachste Variante der Versionierung ist das Kopieren der Dateien in einen neuen Ordner, wenn eine neue Version erstellt werden soll.
+Dies ist allerdings Fehleranfällig, da es ganz einfach ist, eine alter Version zu überschreiben.
 
+### 🏠 Lokale VCS
+Bei einem lokalen VCS handelt es sich um eine Datenbank, die sich auf einem Computer befindet.
+Deren Aufgabe ist es, die verschiedenen Versionen der versionierten Dateien zu verwalten.
+Da die Versionierung jetzt von einer Software übernommen wird, besteht die Gefahr des Überschreibens nicht mehr.
+
+### Centralized VCS
+Wenn mehrere Leute an einem Projekt arbeiten, wird auch beim lokalen VCS noch eine Möglichkeit gebraucht, die verschiedenen Versionen miteinander zu teilen.
+Dies erfordert wiederum das Kopieren von Dateien, was auch wieder zu Fehlern führen kann.
+Hier schaffen Zentralisierte VCS Abhilfe.
+Es handelt sich um VCS, welche sich auf einem zentralen Server befinden.
+Wenn ein Benutzer jetzt eine Datei verändern will, muss er sie von diesem Server herunterladen.
+Die Änderungen müssen dann wieder hochgeladen werden.
+Diese zentrale Datenbank wird von einem Administrator verwaltet.
+
+Wie immer bei einem zentralen System, besteht hier ein großes Problem: Single-Point-of-Failure.
+Wenn es ein Problem mit diesem Server gibt, kann niemand mehr an dem Projekt arbeiten.
+
+(centralized-vcs)[https://git-scm.com/book/en/v2/images/centralized.png]
+
+### Decentralized VCS
+Die dezentralen VCS lösen dieses Problem.
+Es besitzt jetzt nicht mehr nur ein zentraler Server die gesamte Datenbank, sondern jeder Computer, auf dem dieses Projekt bearbeitet wird, erhällt eine Kopie der gesamten Datenbank.
+Dies ermöglicht es auch dann noch zu arbeiten, wenn der Server nicht erreichbar ist.
+Auch können die Computer als Backup angesehen werden, von denen jederzeit Daten wiederhergestellt werden können.
+
+(distributed VCS)[https://git-scm.com/book/en/v2/images/distributed.png]
+
+### Git
+Git wurde für die Entwicklung des Linux Betriebsystems geschrieben.
+In den Jahren 1991 bis 2001 fand diese nämlich über Patches und Archive statt, welche von den Entwicklern ausgetauscht wurden.
+Im Jahr 2002 wurde dann ein proprietäres DVCS benutzt.
+Allerdings gab es im Jahr 2005 Streit mit dieser Firma, wodurch ein neues System her musste.
+
+Git wurde mit einigen notwendigen Eigenschaften erschaffen:
+ * Geschwindigkeit
+ * Einfachheit
+ * Nicht-lineare Entwicklung
+ * Komplett Verteilt
+ * Fähig sehr große Projekte zu unterstützen
+
+## Wie funktioniert Git?
+Worin Git sich von anderen DVCS unterscheidet, ist die Art der Versionierung.
+Die meisten anderen speichern nur die Änderungen der Dateien.
+Git erstellt hingegen für jede neue Version eine Kopie der veränderten Dateien.
+
+Alles ist lokal.
+Somit kann auch gearbeitet werden, wenn keine Internetverbindung besteht.
+
+In Git wird alles gehashed.
+Es wird also eine Art Quersumme aller Dateien berechnet, die sich in einer Version befinden.
+Diese dient der Identifikation der Version.
+Hierfür wird der SHA1-Algorithmus angewandt, welcher einen 40 Zeichen langen Hexadezimalen Wert ausgibt.
+Da sich dieser ändert, sobald sich auch nur eine Kleinigkeit an den Dateien verändert, weiß Git, wann sich Dateien geändert haben.
+
+Mit Git wird immer nur hinzugefügt.
+Im normalen Gebrauch, wird Git nie etwas vergessen.
 
 ## 📝 Nächste Schritte
 
