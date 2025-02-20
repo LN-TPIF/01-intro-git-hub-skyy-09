@@ -178,6 +178,45 @@ Dieser Befehl ist sehr vielseitig.
 In seiner einfachsten Form zeigt er nur einige Informationen zum aktuellen Stand des Repositories.
 Erfahre mehr über diesen Befehl in der [status-Referenz](https://git-scm.com/docs/git-status).
 
+#### Dateien tracken
+
+Dateien können mit dem Befehl `git add <file>` zu Git hinzugefügt werden.
+Sie sind ab dann getracked.
+
+#### Neue Version erstellen
+
+Wenn eine neue Version erstellt werden soll, müssen alle Dateien committed werden.
+Dies geschieht mit dem Befehl `git commit`.
+Nun öffnet sich ein Texteditor, in welchem die Commit-Mitteilung geschrieben werden kann.
+Wird diese Datei erfolgreich gespeichert, ist die neue Version erstellt.
+
+**Achtung**: Es werden nur die Dateien committed, welche sich in der staging-Arena befinden.
+Also nur die Dateien, welche mit `git add` für den nächsten Commit gekennzeichnet wurden.
+Willst du alle Dateien committen, die seit der letzten Version geändert wurden, kannst du folgenden Befehl nutzen:
+```bash
+git commit -a
+```
+
+Es ist auch möglich, diese Mitteilung direkt in den Befehl zu schreiben.
+Dies ist sinnvoll, wenn es sich nur um eine Zeile handelt.
+In diesem Fall sieht der Befehl folgendermaßen aus:
+```bash
+git commit -m <message>
+```
+
+Du kannst `-a` und `-m` auch miteinander kombinieren.
+
+#### Synchronisation
+
+Mit dem Befehl `git pull` kannst du alle Änderungen, die sich auf dem Server befinden "herunterziehen".
+Sollten Änderungen vorhanden sein, die mit deinen Änderungen in Konflikt stehen, wirst du dazu aufgefordert, diese Konflikte zu lösen.
+
+Mit dem Befehl `git push` kannst du deine Änderungen auf den Server "hinaufschieben".
+Dies ist nur erfolgreich, wenn sich keine Änderungen von anderen auf dem Server befinden.
+Um sicherzugehen, dass dies nicht der Fall ist, muss immer zuerst "gepullt" werden und dann erst "gepusht".
+
+Da du, zumindest anfangs, der einzige bist, der in deinem Repository arbeitet, sollte es nicht zu Konflikten kommen, es sei denn du arbeitest von mehreren Orten gleichzeitig, was natürlich auch volkommen OK ist.
+
 ## 📖 Die Entstehung von Git
 Wieso brauchen wir überhaubt ein verteiltes VCS wie Git?
 Zugriff auf ältere Versionen von Dateien zu haben kann in vielen Fällen nützlich sein.
