@@ -106,9 +106,51 @@ Es handelt sich um ein Kommandozeilenprogramm, wird also über eine Kommandozeil
 
 Git kann auf folgender Seite heruntergeladen werden: ["Git Downloads"](https://git-scm.com/downloads)
 
+### Die 2,3 Zustände einer Datei
+
+Eine Datei kann Git bekannt sein, oder nicht.
+Wir reden von **tracked** und **untracked**.
+Zu beginn sind alle Dateien immer untracked und sie werden tracked, wenn sie zu Git hinzugefügt werden.
+Git kann nur Versionen von Dateien erstellen, die getracked werden.
+
+Für Git kann eine Datei in 3 verschiedenen Zuständen sein:
+ * **Unmodified**
+ * **Modified**
+ * **Staged**
+
+Wenn eine Datei unmodified ist, wurde sie seit der letzten Version nicht verändert.
+Eine Datei, die modified ist, wurde seit der letzten Version verändert.
+Hierbei handelt es sich meistens um die Dateien, an den gerade gearbeitet wird.
+Wenn eine Datei staged ist, bedeutet dies, dass sie bereit ist, in die nächste Version aufgenommen zu werden.
+
+![file-lifecycle](https://git-scm.com/book/en/v2/images/lifecycle.png)
+
 ### Befehle
 
 Alle Befehle, die du mit Git benutzts beginnen mit `git`!
+
+#### Einrichten
+
+Nach der Installation von Git, muss dieses Eingerichtet werden.
+Hierfür musst du deinen Namen und deine Email-Adresse angeben, damit später klar ist, wer welche Datei verändert hat.
+Dies wird mit dem `git config` Befehl gemacht.
+
+```bash
+git config --global user.name "<Dein Name>"
+git config --global user.email <Deine Email-Adresse>
+```
+
+#### Hilfe holen
+
+Git bietet für jeden Befehl Hilfe an.
+Dies geht mit
+```bash
+git help <cmd>
+̀ ``
+oder
+```bash
+git <cmd> -h
+```
 
 #### Klonen
 
@@ -160,7 +202,7 @@ Diese zentrale Datenbank wird von einem Administrator verwaltet.
 Wie immer bei einem zentralen System, besteht hier ein großes Problem: Single-Point-of-Failure.
 Wenn es ein Problem mit diesem Server gibt, kann niemand mehr an dem Projekt arbeiten.
 
-(centralized-vcs)[https://git-scm.com/book/en/v2/images/centralized.png]
+![centralized-vcs](https://git-scm.com/book/en/v2/images/centralized.png)
 
 ### Decentralized VCS
 Die dezentralen VCS lösen dieses Problem.
@@ -168,7 +210,7 @@ Es besitzt jetzt nicht mehr nur ein zentraler Server die gesamte Datenbank, sond
 Dies ermöglicht es auch dann noch zu arbeiten, wenn der Server nicht erreichbar ist.
 Auch können die Computer als Backup angesehen werden, von denen jederzeit Daten wiederhergestellt werden können.
 
-(distributed VCS)[https://git-scm.com/book/en/v2/images/distributed.png]
+![distributed VCS](https://git-scm.com/book/en/v2/images/distributed.png)
 
 ### Git
 Git wurde für die Entwicklung des Linux Betriebsystems geschrieben.
