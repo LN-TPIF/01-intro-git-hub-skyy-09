@@ -32,6 +32,6 @@ jobs:
       # To output the results of the tests, you can use the
       # autograding-grading-reporter action like this:
       env:
-        AUFGABE-MD_RESULTS: "${{ steps.aufgabe-md.outputs.result }}"
+        AUFGABE-MD_RESULTS: "${{ steps.Aufgabe-md.outputs.result }}"
       with:
         runners: Aufgabe-md
