@@ -281,17 +281,41 @@ Da sich dieser ändert, sobald sich auch nur eine Kleinigkeit an den Dateien ver
 Mit Git wird immer nur hinzugefügt.
 Im normalen Gebrauch, wird Git nie etwas vergessen.
 
+## 🗒️ Aufgaben
+1. Lade *Git für Windows* auf deinem Laptop herunter und installiere es.
+   Benutze bei der Installation die Standardwerte außer für den **Standardeditor**.
+   Benutze hier **Notepad**!
+2. Erstelle einen Screeshot von diesem Schritt und speichere diesen als Datei!
+   Starte **Git BASH** und initialisiere Git.
+   Wenn du nicht mehr weißt wie dies geht, kannst du im Abschnitt [Einrichten](#Einrichten) nachschauen.
+   Benutze als Emailadresse deine `@school.lu` Adresse.
+4. Erstelle ein Konto auf [GitHub](https://github.com) mit einem Benutzernamen deiner Wahl und deiner Schuladresse.
+5. Öffne dieses Assignment. Den Link bekommst du von deinem Lehrer.
+6. Wähle deinen Namen aus.
+7. Akzeptiere das Assignment.
+8. Erstelle einen Ordner auf deinem Laptop, für alle Aufgaben dieses Semesters.
+9. Klone dein Repository für dieses Assignment in dieses Ordner. **Achtung:** Du kannst kein <kbd>Ctrl</kbd>+<kbd>V</kbd> in Git BASH nutzen! Einfügen kannst du mit <kbd>⇧ Shift</kbd> + <kbd>Ins</kbd> oder rechtem Mausklick. Solltest du trotzdem <kbd>Ctrl</kbd>+<kbd>V</kbd> drücken, führt dies meist zu einem Fehler.
+10. Erstelle nun die Datei `Aufgabe.md` und committe diese mit der Nachricht "My first commit".
+11. Pushe diese Änderungen auf den Server. Hinter der Commit-Nachricht befindet sich ein rotes Kreuz. Dies bedeutet, dass noch nicht alles richtig ist. Die Aufgabe ist aber noch nicht fertig.
+12. Klicke auf das rote Kreuz und dann auf "Details", um dir die Details zu den Tests anzusehen. Wenn du bis jetzt alles richtig gemacht hast, hast du einen von zwei Tests bestanden.
+13. Füge den Screenshot den du vorhin erstellt hast zu deinem Repository hinzu und nenne es "Init.png" oder "Init.jpg".
+14. Committe das Bild mit der Nachricht "Add screenshot".
+15. Füge in der vorhin erstellten Datei eine Überschrift "Aufgabe" hinzu.
+16. Füge das Bild unter der Überschrift ein.
+17. Committe mit der Nachricht "Add image to file" und pushe deine Änderungen.
+18. Schaue dir die Tests an und überprüfe, dass du jetzt alle bestehst. In diesem Fall ist ein grüner Haken neben deiner Commit-Nachricht.
+19. Wenn alles erledigt ist, erstelle einen neuen Pull-Request. Mit diesem kannst du deinem Lehrer mitteilen, dass du mit der Aufgabe fertig bist und ein Kommentar hinterlassen.
+
+
 ## 📝 Nächste Schritte
 
-* 
-* Öffne eine Pull-Anfrage und lass deinen Lehrer wissen, dass du diesen Kurs abgeschlossen hast.
-* Erstelle eine neue Markdown-Datei in diesem Repository. Teile mit, was du gelernt hast und was du noch nicht verstehst! Experimentiere mit verschiedenen Stilen!
+* Erstelle eine neue Markdown-Datei "Notizen.md" in diesem Repository. Schreibe in diesem auf, was du gelern hast, damit du später schnell darauf zugreifen kannst. Du kannst auch Screenshots einfügen.
 * Erstelle deine Profil-README. Lass die Welt ein wenig mehr über dich wissen! Woran bist du interessiert? Woran arbeitest du? Was ist dein Lieblingshobby? Erfahre mehr über das Erstellen deiner Profil-README im Dokument ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
-* Gehe zu deinem Benutzer-Dashboard und erstelle ein neues Repository. Experimentiere mit den Funktionen in diesem Repository, um dich damit vertraut zu machen.
-* [Lass uns wissen, was dir an den Inhalten dieses Kurses gefallen oder nicht gefallen hat](https://support.github.com/contact/education). Was würdest du gerne mehr sehen? Was wäre interessant oder hilfreich für deine Lernreise?
+
 
 ## 📚 Ressourcen
 
+* [Das Git Buch](https://git-scm.com/book/en/v2) (Dieser Kurs basiert darauf)
 * [Ein kurzes Video, das erklärt, was GitHub ist](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
 * [Lernmaterialien zu Git und GitHub](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources)
 * [Das GitHub-Flow verstehen](https://guides.github.com/introduction/flow/)
