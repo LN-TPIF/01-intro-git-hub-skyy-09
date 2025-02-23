@@ -34,4 +34,4 @@ jobs:
       env:
         AUFGABE-MD_RESULTS: "${{ steps.aufgabe-md.outputs.result }}"
       with:
-        runners: aufgabe-md
+        runners: Aufgabe-md
