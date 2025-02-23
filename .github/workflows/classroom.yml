@@ -18,16 +18,16 @@ jobs:
       # For more information on this runner, see the documentation at: https://github.com/classroom-resources/autograding-io-grader
       #
       # For example, you could run a test suite like this:
-      - name: Run tests
-        uses: classroom-resources/autograding-io-grader@v1
-          with:
-            test-name: Aufgabe.md
-            id: aufgabe-md
-            command: "find -name"
-            input: Aufgabe.md
-            expected-output: ./Aufgabe.md
-            comparison-method: exact
-            timeout: 1
+    - name: Run tests
+      uses: classroom-resources/autograding-io-grader@v1
+        with:
+          test-name: Aufgabe.md
+          id: aufgabe-md
+          command: "find -name"
+          input: Aufgabe.md
+          expected-output: ./Aufgabe.md
+          comparison-method: exact
+          timeout: 1
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       # For more information on this runner, see the documentation at https://github.com/classroom-resources/autograding-grading-reporter
