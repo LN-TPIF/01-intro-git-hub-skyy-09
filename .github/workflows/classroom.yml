@@ -22,7 +22,6 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: "Aufgabe.md"
-        id: aufgabe-md
         command: "find -name"
         input: Aufgabe.md
         expected-output: ./Aufgabe.md
