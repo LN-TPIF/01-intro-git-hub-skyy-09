@@ -35,6 +35,7 @@ jobs:
         command: "find . -name Init.png -o -name Init.jpg"
         expected-output: ./Init.(png|jpg)
         comparison-method: regex
+        max-score: 1
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       # For more information on this runner, see the documentation at https://github.com/classroom-resources/autograding-grading-reporter
