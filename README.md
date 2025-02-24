@@ -283,8 +283,8 @@ Im normalen Gebrauch, wird Git nie etwas vergessen.
 
 ## 🗒️ Aufgaben
 1. Lade *Git für Windows* auf deinem Laptop herunter und installiere es.
-   Benutze bei der Installation die Standardwerte außer für den **Standardeditor**.
-   Benutze hier **Notepad**!
+   Benutze bei der Installation die Standardwerte außer für den **Standardeditor** und den Hauptbranch.
+   Benutze hier **Notepad** und **main**.
 2. Erstelle einen Screeshot von diesem Schritt und speichere diesen als Datei!
    Starte **Git BASH** und initialisiere Git.
    Wenn du nicht mehr weißt wie dies geht, kannst du im Abschnitt [Einrichten](#Einrichten) nachschauen.
