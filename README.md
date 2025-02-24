@@ -163,6 +163,12 @@ git clone <Remote-URL> [<Local-Repository>]
 
 Diesen Befehl führst du in der Regel nur einmal pro Rechner und pro Repository aus!
 
+Mit dem Befehl `cd <repository>` kannst du nun in dein Repository wechseln.
+
+Dein Repository wird standardmäßig nach `C:\Users\<Benutzername>` geklont.
+
+Wenn du einen anderen Ordner benutzen willst, kannst du in diesem Ordner Git Bash über einen Rechtsklick öffnen.
+
 Die URL findest du auf der Startseite des Repositories auf GitHub:
 
 ![GitHub Clone URL](01-github-clone-url.png)
